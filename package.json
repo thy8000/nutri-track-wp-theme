@@ -1,12 +1,9 @@
 {
   "scripts": {
-    "tailwind": "npx @tailwindcss/cli -i ./assets/css/style.css -o ./assets/css/style.min.css --watch"
-  },
-  "prettier": {
-    "plugins": [
-      "prettier-plugin-tailwindcss"
-    ],
-    "tailwindStylesheet": "./assets/css/style.css"
+    "css": "gulp css",
+    "css-watch": "gulp css-watch",
+    "js": "gulp js",
+    "js-watch": "gulp js-watch"
   },
   "devDependencies": {
     "gulp": "^5.0.1",
