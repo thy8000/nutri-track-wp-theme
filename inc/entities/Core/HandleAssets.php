@@ -13,13 +13,12 @@ class HandleAssets
 
    public function global_scripts()
    {
-      wp_enqueue_style('style', get_theme_file_uri('assets/css/style.min.css'));
-      /*
-      wp_enqueue_script('nutri-track-script', get_theme_file_uri('assets/js/all.min.js'), false, null, [
+      wp_enqueue_style('all', get_theme_file_uri('assets/output/all.min.css'));
+
+      wp_enqueue_script('all', get_theme_file_uri('assets/output/all.min.js'), false, null, [
          'strategy'  => 'defer',
          'in_footer' => false,
       ]);
-      */
    }
 }
 
