@@ -13,6 +13,18 @@
    overflow: hidden;
 }
 
+.header__top-banner__wrapper:hover .header__top-banner__sub-container {
+   color: var(--green-70) !important;
+
+   transition: color 0.5s;
+}
+
+.header__top-banner__wrapper:hover .header__top-banner__arrow-right {
+   fill: var(--green-70);
+
+   transition: fill 0.5s;
+}
+
 .header__top-banner__sub-container {
    gap: 14px;
 }
@@ -20,5 +32,6 @@
 .header__top-banner__arrow-right {
    width: 20px;
    height: 20px;
+
    fill: white;
 }

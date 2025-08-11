@@ -4,7 +4,7 @@ if (!defined('ABSPATH')) {
    exit;
 }
 
-get_template_part('template-parts/header');
+get_template_part('template-parts/header/_index');
 
 ?>
 
