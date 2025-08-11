@@ -1,0 +1,26 @@
+.header__nav-menu {
+   background-color: var(--dark-green-15);
+}
+
+.header__nav-menu .menu-item a {
+   color: white;
+}
+
+.header__nav-menu .menu-item:hover a {
+   color: var(--green-70);
+
+   transition: color 0.5s;
+}
+
+.header__nav-menu .navbar-toggler.opened {
+   display: block !important;
+}
+
+.header__nav-menu .navbar-toggler {
+   border: 1px solid white !important;
+}
+
+.header__nav-menu__hamburguer,
+.header__nav-menu__close {
+   fill: white;
+}

@@ -20,9 +20,10 @@ if (!defined('ABSPATH')) {
    <?php wp_body_open(); ?>
 
    <header class="header">
-      <?php get_template_part('template-parts/header/top-banner'); ?>
+      <?php
 
-      <nav>
-         Navbar
-      </nav>
+      get_template_part('template-parts/header/top-banner');
+      get_template_part('template-parts/header/nav-menu');
+
+      ?>
    </header>

@@ -11,3 +11,6 @@ require get_parent_theme_file_path('/inc/entities/Core/Menu.php');
 
 // Entities - Utils
 require get_parent_theme_file_path('/inc/entities/Utils/Utils.php');
+
+// Entities - Bootstrap
+require get_parent_theme_file_path('/inc/entities/Bootstrap/Navwalker.php');
